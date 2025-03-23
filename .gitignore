@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+
+# Flask and Python environment files
+instance/
+*.pid
+
+
+# Logs and debugging
+logs/
+*.log
+nohup.out
+debug.log
+
+# Environment variables and secrets
+.env
+*.ini
+config.py
+secrets.json
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
